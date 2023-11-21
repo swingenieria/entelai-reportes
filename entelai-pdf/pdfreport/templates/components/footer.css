@@ -1,0 +1,29 @@
+footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background: white;
+    font-size: 8px;
+    padding: 20px 30px;
+    box-sizing: border-box;
+}
+
+.footer-content {
+    border-top: solid 1px #ccc;
+    position: relative;
+    padding-right: 40px;
+    padding-top: 10px;
+}
+
+.footer-disclaimer {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.footer-page-counter {
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+}

@@ -1,0 +1,15 @@
+<div class="{{ component.get('class', '') if component is mapping and component.get('class', False) else ''}}">
+    {% for item in component.get('items',[]) %}
+        {% if item is mapping and item.get('type', False) %}
+            {% with component=item %}
+                {% include ('components/' + item.get('type') + '.html') %}
+            {% endwith %}
+        {% else %}
+            {% if item is mapping %}
+                {{ item.get('value') }}
+            {% else %}
+                {{ item }}
+            {% endif %}
+        {% endif %}
+    {% endfor %}
+</div>

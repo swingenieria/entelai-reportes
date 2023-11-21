@@ -1,0 +1,1161 @@
+# Portuguese translations for PROJECT.
+# Copyright (C) 2020 ORGANIZATION
+# This file is distributed under the same license as the PROJECT project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2023-07-21 14:18-0300\n"
+"PO-Revision-Date: 2023-07-21 14:39-0300\n"
+"Last-Translator: \n"
+"Language-Team: pt <LL@li.org>\n"
+"Language: pt\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Generated-By: Babel 2.10.2\n"
+"X-Generator: Poedit 3.3.2\n"
+
+#: pipeline/entelai-pdf/pdfreport/examples_4_reports.py:46
+#: pipeline/entelai-pdf/pdfreport/examples_4_reports.py:302
+#: pipeline/entelai-pdf/pdfreport/examples_4_reports.py:452
+#: pipeline/entelai-pdf/pdfreport/examples_4_reports.py:661
+#: pipeline/entelai-pdf/pdfreport/report_data/base_report_data.py:68
+#: pipeline/entelai-pdf/pdfreport/report_data/mammo_report_data.py:26
+#: pipeline/entelai-pdf/pdfreport/report_data/thorax_report_data.py:29
+#: pipeline/entelai-pdf/pdfreport/report_data/thorax_report_data.py:207
+msgid "Paciente"
+msgstr "Paciente"
+
+#: pipeline/entelai-pdf/pdfreport/examples_4_reports.py:46
+#: pipeline/entelai-pdf/pdfreport/examples_4_reports.py:302
+#: pipeline/entelai-pdf/pdfreport/examples_4_reports.py:453
+#: pipeline/entelai-pdf/pdfreport/examples_4_reports.py:661
+#: pipeline/entelai-pdf/pdfreport/report_data/base_report_data.py:68
+#: pipeline/entelai-pdf/pdfreport/report_data/mammo_report_data.py:26
+#: pipeline/entelai-pdf/pdfreport/report_data/thorax_report_data.py:30
+#: pipeline/entelai-pdf/pdfreport/report_data/thorax_report_data.py:208
+msgid "ID de Paciente"
+msgstr "Identificação do paciente"
+
+#: pipeline/entelai-pdf/pdfreport/examples_4_reports.py:46
+#: pipeline/entelai-pdf/pdfreport/examples_4_reports.py:302
+#: pipeline/entelai-pdf/pdfreport/examples_4_reports.py:454
+#: pipeline/entelai-pdf/pdfreport/examples_4_reports.py:661
+#: pipeline/entelai-pdf/pdfreport/report_data/base_report_data.py:68
+#: pipeline/entelai-pdf/pdfreport/report_data/mammo_report_data.py:26
+#: pipeline/entelai-pdf/pdfreport/report_data/thorax_report_data.py:31
+#: pipeline/entelai-pdf/pdfreport/report_data/thorax_report_data.py:209
+msgid "Nombre del estudio"
+msgstr "Nome do estudo"
+
+#: pipeline/entelai-pdf/pdfreport/examples_4_reports.py:46
+#: pipeline/entelai-pdf/pdfreport/examples_4_reports.py:302
+#: pipeline/entelai-pdf/pdfreport/examples_4_reports.py:455
+#: pipeline/entelai-pdf/pdfreport/examples_4_reports.py:661
+#: pipeline/entelai-pdf/pdfreport/report_data/base_report_data.py:68
+#: pipeline/entelai-pdf/pdfreport/report_data/mammo_report_data.py:26
+#: pipeline/entelai-pdf/pdfreport/report_data/thorax_report_data.py:32
+#: pipeline/entelai-pdf/pdfreport/report_data/thorax_report_data.py:210
+msgid "Fecha del estudio"
+msgstr "Data do estudo"
+
+#: pipeline/entelai-pdf/pdfreport/examples_4_reports.py:48
+#: pipeline/entelai-pdf/pdfreport/examples_4_reports.py:304
+#: pipeline/entelai-pdf/pdfreport/examples_4_reports.py:458
+#: pipeline/entelai-pdf/pdfreport/examples_4_reports.py:663
+#: pipeline/entelai-pdf/pdfreport/report_data/base_report_data.py:70
+#: pipeline/entelai-pdf/pdfreport/report_data/mammo_report_data.py:28
+#: pipeline/entelai-pdf/pdfreport/report_data/thorax_report_data.py:35
+#: pipeline/entelai-pdf/pdfreport/report_data/thorax_report_data.py:213
+msgid "Edad"
+msgstr "Idade"
+
+#: pipeline/entelai-pdf/pdfreport/examples_4_reports.py:48
+#: pipeline/entelai-pdf/pdfreport/examples_4_reports.py:304
+#: pipeline/entelai-pdf/pdfreport/examples_4_reports.py:458
+#: pipeline/entelai-pdf/pdfreport/examples_4_reports.py:663
+#: pipeline/entelai-pdf/pdfreport/report_data/base_report_data.py:70
+#: pipeline/entelai-pdf/pdfreport/report_data/mammo_report_data.py:28
+#: pipeline/entelai-pdf/pdfreport/report_data/thorax_report_data.py:35
+#: pipeline/entelai-pdf/pdfreport/report_data/thorax_report_data.py:213
+msgid "Género"
+msgstr "Sexo"
+
+#: pipeline/entelai-pdf/pdfreport/examples_4_reports.py:48
+#: pipeline/entelai-pdf/pdfreport/examples_4_reports.py:304
+#: pipeline/entelai-pdf/pdfreport/examples_4_reports.py:663
+#: pipeline/entelai-pdf/pdfreport/report_data/base_report_data.py:70
+msgid "Nombre estudio previo"
+msgstr "Nome do estudo anterior"
+
+#: pipeline/entelai-pdf/pdfreport/examples_4_reports.py:48
+#: pipeline/entelai-pdf/pdfreport/examples_4_reports.py:304
+#: pipeline/entelai-pdf/pdfreport/examples_4_reports.py:663
+#: pipeline/entelai-pdf/pdfreport/report_data/base_report_data.py:70
+msgid "Fecha estudio previo"
+msgstr "Data estudo anterior"
+
+#: pipeline/entelai-pdf/pdfreport/examples_4_reports.py:61
+msgid ""
+"VIC: Volumen Intracraneal. Los rangos de valores normales están "
+"definidos al nivel del percentil 5%. Producto médico autorizado por "
+"ANMAT e inscripto en el Registro Nacional de Productores y Productos de "
+"Tecnología Médica bajo el número 2477-1. Entelai Pic versión 2.1.0."
+msgstr ""
+"VIC: Volume intracraniano. Os intervalos de valores normais são "
+"definidos no nível do percentil 5%. Produto médico autorizado pela ANMAT "
+"e registrado no Registro Nacional de Produtores e Produtos de Tecnologia "
+"Médica sob o número 2477-1. Entelai Pic versão 2.1.0."
+
+#: pipeline/entelai-pdf/pdfreport/examples_4_reports.py:131
+#: pipeline/entelai-pdf/pdfreport/examples_4_reports.py:833
+#: pipeline/entelai-pdf/pdfreport/report_data/neuro_report_data.py:280
+#: pipeline/entelai-pdf/pdfreport/report_data/neuro_report_data.py:409
+msgid "Volumen cerebro (FPC)"
+msgstr "Volume cerebral (FPC)"
+
+#: pipeline/entelai-pdf/pdfreport/examples_4_reports.py:131
+#: pipeline/entelai-pdf/pdfreport/examples_4_reports.py:833
+#: pipeline/entelai-pdf/pdfreport/report_data/neuro_report_data.py:282
+#: pipeline/entelai-pdf/pdfreport/report_data/neuro_report_data.py:411
+msgid "Volumen sustancia gris cortical"
+msgstr "Volume do córtex cerebral"
+
+#: pipeline/entelai-pdf/pdfreport/examples_4_reports.py:134
+msgid "Volumen hipocampos"
+msgstr "Volume do hipocampo"
+
+#: pipeline/entelai-pdf/pdfreport/examples_4_reports.py:134
+#: pipeline/entelai-pdf/pdfreport/helpers/translations.py:69
+msgid "Indice de Evans"
+msgstr "Indice de Evans"
+
+#: pipeline/entelai-pdf/pdfreport/examples_4_reports.py:137
+#: pipeline/entelai-pdf/pdfreport/report_data/neuro_report_data.py:296
+msgid "Volumen corteza"
+msgstr "Volume do córtex"
+
+#: pipeline/entelai-pdf/pdfreport/examples_4_reports.py:137
+msgid "Volumen cerebelo"
+msgstr "Volume do cerebelo"
+
+#: pipeline/entelai-pdf/pdfreport/examples_4_reports.py:144
+#: pipeline/entelai-pdf/pdfreport/examples_4_reports.py:841
+msgid "Segmentación de tejidos"
+msgstr "Segmentação de tecidos"
+
+#: pipeline/entelai-pdf/pdfreport/examples_4_reports.py:159
+#: pipeline/entelai-pdf/pdfreport/examples_4_reports.py:881
+#: pipeline/entelai-pdf/pdfreport/report_data/neuro_report_data.py:33
+msgid "Mapa de calor de volumen según área"
+msgstr "Mapa de calor de volume por área"
+
+#: pipeline/entelai-pdf/pdfreport/examples_4_reports.py:187
+#: pipeline/entelai-pdf/pdfreport/examples_4_reports.py:205
+#: pipeline/entelai-pdf/pdfreport/examples_4_reports.py:919
+#: pipeline/entelai-pdf/pdfreport/examples_4_reports.py:937
+#: pipeline/entelai-pdf/pdfreport/report_data/neuro_report_data.py:333
+#: pipeline/entelai-pdf/pdfreport/report_data/neuro_report_data.py:349
+#: pipeline/entelai-pdf/pdfreport/report_data/neuro_report_data.py:488
+#: pipeline/entelai-pdf/pdfreport/report_data/neuro_report_data.py:504
+msgid "Volumen según estructuras"
+msgstr "Volume por estruturas"
+
+#: pipeline/entelai-pdf/pdfreport/examples_4_reports.py:192
+#: pipeline/entelai-pdf/pdfreport/examples_4_reports.py:210
+#: pipeline/entelai-pdf/pdfreport/examples_4_reports.py:924
+#: pipeline/entelai-pdf/pdfreport/examples_4_reports.py:942
+#: pipeline/entelai-pdf/pdfreport/report_data/neuro_report_data.py:20
+msgid "Estructura"
+msgstr "Estrutura"
+
+#: pipeline/entelai-pdf/pdfreport/examples_4_reports.py:192
+#: pipeline/entelai-pdf/pdfreport/examples_4_reports.py:210
+#: pipeline/entelai-pdf/pdfreport/examples_4_reports.py:924
+#: pipeline/entelai-pdf/pdfreport/examples_4_reports.py:942
+msgid "Volumen"
+msgstr "Volume"
+
+#: pipeline/entelai-pdf/pdfreport/examples_4_reports.py:192
+#: pipeline/entelai-pdf/pdfreport/examples_4_reports.py:210
+#: pipeline/entelai-pdf/pdfreport/examples_4_reports.py:924
+#: pipeline/entelai-pdf/pdfreport/examples_4_reports.py:942
+msgid "Rango normal ajustado por edad"
+msgstr "Faixa normal ajustada por idade"
+
+#: pipeline/entelai-pdf/pdfreport/examples_4_reports.py:193
+#: pipeline/entelai-pdf/pdfreport/examples_4_reports.py:211
+#: pipeline/entelai-pdf/pdfreport/examples_4_reports.py:925
+#: pipeline/entelai-pdf/pdfreport/examples_4_reports.py:943
+#: pipeline/entelai-pdf/pdfreport/report_data/neuro_report_data.py:22
+msgid "Percentilo normativo"
+msgstr "Percentil normativo"
+
+#: pipeline/entelai-pdf/pdfreport/examples_4_reports.py:193
+#: pipeline/entelai-pdf/pdfreport/examples_4_reports.py:211
+#: pipeline/entelai-pdf/pdfreport/examples_4_reports.py:925
+#: pipeline/entelai-pdf/pdfreport/examples_4_reports.py:943
+msgid "Cambio volumen anualizado"
+msgstr "Variação anualizada do volume"
+
+#: pipeline/entelai-pdf/pdfreport/examples_4_reports.py:194
+#: pipeline/entelai-pdf/pdfreport/examples_4_reports.py:212
+#: pipeline/entelai-pdf/pdfreport/examples_4_reports.py:926
+#: pipeline/entelai-pdf/pdfreport/examples_4_reports.py:944
+msgid "Cambio volumen anualizado normativo"
+msgstr "Variação anualizada normativa do volume"
+
+#: pipeline/entelai-pdf/pdfreport/examples_4_reports.py:224
+#: pipeline/entelai-pdf/pdfreport/examples_4_reports.py:974
+msgid "FRACCIÓN DE PARENQUIMA CEREBRAL"
+msgstr "FRAÇÃO DE PARENQUIMA CEREBRAL"
+
+#: pipeline/entelai-pdf/pdfreport/examples_4_reports.py:227
+#: pipeline/entelai-pdf/pdfreport/examples_4_reports.py:233
+#: pipeline/entelai-pdf/pdfreport/examples_4_reports.py:239
+#: pipeline/entelai-pdf/pdfreport/examples_4_reports.py:245
+#: pipeline/entelai-pdf/pdfreport/examples_4_reports.py:971
+#: pipeline/entelai-pdf/pdfreport/examples_4_reports.py:977
+msgid "Una Frase con una evaluacion medica."
+msgstr "NOT NEEDED."
+
+#: pipeline/entelai-pdf/pdfreport/examples_4_reports.py:227
+#: pipeline/entelai-pdf/pdfreport/examples_4_reports.py:233
+#: pipeline/entelai-pdf/pdfreport/examples_4_reports.py:239
+#: pipeline/entelai-pdf/pdfreport/examples_4_reports.py:245
+#: pipeline/entelai-pdf/pdfreport/examples_4_reports.py:971
+#: pipeline/entelai-pdf/pdfreport/examples_4_reports.py:977
+msgid "Otra Frase con otra evaluacion"
+msgstr "NOT NEEDED"
+
+#: pipeline/entelai-pdf/pdfreport/examples_4_reports.py:230
+#: pipeline/entelai-pdf/pdfreport/report_data/neuro_report_data.py:377
+#: pipeline/entelai-pdf/pdfreport/report_data/neuro_report_data.py:660
+msgid "HIPOCAMPOS"
+msgstr "HIPOCAMPOS"
+
+#: pipeline/entelai-pdf/pdfreport/examples_4_reports.py:236
+#: pipeline/entelai-pdf/pdfreport/report_data/neuro_report_data.py:122
+#: pipeline/entelai-pdf/pdfreport/report_data/neuro_report_data.py:383
+#: pipeline/entelai-pdf/pdfreport/report_data/neuro_report_data.py:666
+msgid "SISTEMA VENTRICULAR"
+msgstr "SISTEMA VENTRICULAR"
+
+#: pipeline/entelai-pdf/pdfreport/examples_4_reports.py:242
+#: pipeline/entelai-pdf/pdfreport/report_data/neuro_report_data.py:389
+#: pipeline/entelai-pdf/pdfreport/report_data/neuro_report_data.py:672
+msgid "TRONCO ENCEFÁLICO"
+msgstr "TRONCO ENCEFÁLICO"
+
+#: pipeline/entelai-pdf/pdfreport/examples_4_reports.py:254
+msgid ""
+"Entelai Pic Radiografía de Torax Versión 1.0.0. Producto médico en "
+"proceso de autorización por la ANMAT."
+msgstr ""
+"Produto médico autorizado pela ANMAT e registrado no Registro Nacional "
+"de Produtores e Produtos de Tecnologia Médica sob o número 2477-1."
+
+#: pipeline/entelai-pdf/pdfreport/examples_4_reports.py:280
+msgid "Reporte Torax"
+msgstr "Relatorio de Torax"
+
+#: pipeline/entelai-pdf/pdfreport/examples_4_reports.py:318
+msgid "Proyección  LAT"
+msgstr "Projeção lateral"
+
+#: pipeline/entelai-pdf/pdfreport/examples_4_reports.py:320
+#: pipeline/entelai-pdf/pdfreport/examples_4_reports.py:482
+#: pipeline/entelai-pdf/pdfreport/report_data/thorax_report_data.py:44
+#: pipeline/entelai-pdf/pdfreport/report_data/thorax_report_data.py:65
+#: pipeline/entelai-pdf/pdfreport/report_data/thorax_report_data.py:226
+msgid "Proyección "
+msgstr "Projeção "
+
+#: pipeline/entelai-pdf/pdfreport/examples_4_reports.py:320
+msgid "AP"
+msgstr "AP"
+
+#: pipeline/entelai-pdf/pdfreport/examples_4_reports.py:337
+msgid ""
+"La siguiente radiografía de tórax se analizó utilizando un sistema de "
+"inteligencia artificial. Se utilizó la imagen de XXX. Se observaron al "
+"menos una anormalidad en el estudio para revisión por el especialista."
+msgstr ""
+"A seguinte radiografia de tórax foi analisada usando um sistema de "
+"inteligência artificial. A imagem XXX foi usada. Pelo menos uma "
+"alteração foi observada no estudo para revisão medica."
+
+#: pipeline/entelai-pdf/pdfreport/examples_4_reports.py:348
+#: pipeline/entelai-pdf/pdfreport/examples_4_reports.py:378
+#: pipeline/entelai-pdf/pdfreport/examples_4_reports.py:404
+msgid "Reporte de análisis automatizado por inteligencia artificial "
+msgstr "Relatorio de análise automatizada por inteligência artificial "
+
+#: pipeline/entelai-pdf/pdfreport/examples_4_reports.py:354
+#: pipeline/entelai-pdf/pdfreport/examples_4_reports.py:384
+#: pipeline/entelai-pdf/pdfreport/examples_4_reports.py:410
+msgid "Sospecha diagnóstica"
+msgstr "Suspeita diagnóstica"
+
+#: pipeline/entelai-pdf/pdfreport/examples_4_reports.py:357
+msgid "El estudio presenta los siguientes hallazgos para evaluación:"
+msgstr "O estudo apresenta os seguintes resultados para avaliação:"
+
+#: pipeline/entelai-pdf/pdfreport/examples_4_reports.py:368
+msgid ""
+"La siguiente radiografía de tórax se analizó utilizando un sistema de "
+"inteligencia artificial. Se utilizaron las imágenes de frente y perfil."
+msgstr ""
+"A seguinte radiografia de tórax foi analisada usando um sistema de "
+"inteligência artificial. Foram utilizadas as projeções frontal e de "
+"perfil."
+
+#: pipeline/entelai-pdf/pdfreport/examples_4_reports.py:387
+msgid "No se detectaron hallazgos anormales."
+msgstr "Não foram detectados achados anormais."
+
+#: pipeline/entelai-pdf/pdfreport/examples_4_reports.py:413
+msgid "Se observa un área anormal para revisión por el especialista."
+msgstr "Uma área anormal foi detectada para revisão médica."
+
+#: pipeline/entelai-pdf/pdfreport/examples_4_reports.py:466
+msgid "Proyección AP"
+msgstr "Projeção AP"
+
+#: pipeline/entelai-pdf/pdfreport/examples_4_reports.py:498
+#: pipeline/entelai-pdf/pdfreport/examples_4_reports.py:675
+#: pipeline/entelai-pdf/pdfreport/report_data/mammo_report_data.py:118
+#: pipeline/entelai-pdf/pdfreport/report_data/thorax_report_data.py:98
+msgid "Áreas de interés"
+msgstr "Áreas de interesse"
+
+#: pipeline/entelai-pdf/pdfreport/examples_4_reports.py:526
+#: pipeline/entelai-pdf/pdfreport/report_data/mammo_report_data.py:159
+#: pipeline/entelai-pdf/pdfreport/report_data/neuro_report_data.py:222
+#: pipeline/entelai-pdf/pdfreport/report_data/thorax_report_data.py:120
+msgid "Reporte de análisis automatizado por inteligencia artificial"
+msgstr "Relatorio de análise automatizada por inteligência artificial"
+
+#: pipeline/entelai-pdf/pdfreport/examples_4_reports.py:531
+#: pipeline/entelai-pdf/pdfreport/report_data/thorax_report_data.py:125
+msgid "Hallazgos radiológicos"
+msgstr "Achados Radiológicos"
+
+#: pipeline/entelai-pdf/pdfreport/examples_4_reports.py:541
+#: pipeline/entelai-pdf/pdfreport/report_data/thorax_report_data.py:135
+msgid "Aclaración para el médico"
+msgstr "Clarificação para o profissional de saúde"
+
+#: pipeline/entelai-pdf/pdfreport/examples_4_reports.py:545
+msgid ""
+"El porcentaje presente en cada hallazgo refleja el grado de certeza que "
+"posee el algoritmo para su predicción. Cuanto más alto el porcentaje,"
+"mayor es el grado de certeza ante un determinado hallazgo. Por el "
+"contrario, porcentajes más bajos, reflejan un menor grado de certeza."
+"Esto puede deberse a factores del entrenamiento del algoritmo o propios "
+"de la imagen (hallazgo pequeño, atípico o imagen de baja calidad).Los "
+"mapas de calor son una representación visual de los sectores de la "
+"radiografíaque fueron más relevantes para el algoritmo de inteligencia "
+"artificial en su predicción.Sin embargo, estas áreas pueden no "
+"necesariamente coincidir conlos sectores radiológicamente relevantes "
+"para el diagnóstico del hallazgo."
+msgstr "EXAMPLE"
+
+#: pipeline/entelai-pdf/pdfreport/examples_4_reports.py:562
+#: pipeline/entelai-pdf/pdfreport/report_data/mammo_report_data.py:213
+#: pipeline/entelai-pdf/pdfreport/report_data/thorax_report_data.py:156
+msgid "Aclaración para el paciente"
+msgstr "Esclarecimento ao Paciente"
+
+#: pipeline/entelai-pdf/pdfreport/examples_4_reports.py:566
+#: pipeline/entelai-pdf/pdfreport/report_data/thorax_report_data.py:160
+msgid ""
+"Este reporte es generado por un sistema de inteligencia artificial de "
+"soporte para uso exclusivo de los profesionales médicos. En "
+"consecuencia, este reporte no podrá considerarse como un diagnóstico "
+"médico ni como una opinión médica y, por tanto, no reemplaza el "
+"diagnóstico o la opinión médica del profesional responsable a cargo. La "
+"información contenida en este informe no es exhaustiva ni podrá "
+"considerarse como tal y no queda exenta de cualquier limitación o error "
+"pudiendo incluso ser distinta a la opinión del médico tratante quien "
+"será el único profesional responsable capacitado para elaborar un "
+"diagnóstico. Siga siempre todas las recomendaciones del profesional "
+"médico tratante."
+msgstr ""
+"Este relatorio é gerado por um sistema de inteligência artificial de "
+"suporte para uso exclusivo de profissionais médicos. Consequentemente, "
+"este relatorio não pode ser considerado um diagnóstico médico ou opinião "
+"médica e, portanto, não substitui o diagnóstico ou opinião médica do "
+"profissional responsável. As informações contidas neste relatorio não "
+"são exaustivas, nem podem ser consideradas como tal e não estão isentas "
+"de qualquer limitação ou erro, podendo até divergir da opinião do médico "
+"assistente que será o único responsável treinado para fazer um "
+"diagnóstico. Siga sempre todas as recomendações do profissional médico "
+"responsável pelo tratamento."
+
+#: pipeline/entelai-pdf/pdfreport/examples_4_reports.py:609
+msgid ""
+"Entelai Pic Mamografía Versión 1.0.0. Producto médico autorizado por "
+"ANMAT e inscripto en el Registro Nacional de Productores y Productos de "
+"Tecnología Médica bajo el número 2477-1."
+msgstr ""
+"Produto médico autorizado pela ANMAT e registrado no Registro Nacional "
+"de Produtores e Produtos de Tecnologia Médica sob o número 2477-1."
+
+#: pipeline/entelai-pdf/pdfreport/examples_4_reports.py:675
+#: pipeline/entelai-pdf/pdfreport/report_data/mammo_report_data.py:116
+msgid "Mamografía"
+msgstr "Mamografia"
+
+#: pipeline/entelai-pdf/pdfreport/examples_4_reports.py:677
+msgid "Derecha-MLO"
+msgstr "Direita-MLO"
+
+#: pipeline/entelai-pdf/pdfreport/examples_4_reports.py:679
+msgid "Derecha-CC"
+msgstr "Direita-CC"
+
+#: pipeline/entelai-pdf/pdfreport/examples_4_reports.py:681
+msgid "Izquierda-MLO"
+msgstr "Esquerda-MLO"
+
+#: pipeline/entelai-pdf/pdfreport/examples_4_reports.py:683
+msgid "Izquierda-CC"
+msgstr "Esquerda-CC"
+
+#: pipeline/entelai-pdf/pdfreport/examples_4_reports.py:697
+msgid ""
+" Se observó una anomalía correspondiente a una calcificación y una masa "
+"con una certeza mayor a 85%."
+msgstr " ooooooooooooooooo."
+
+#: pipeline/entelai-pdf/pdfreport/examples_4_reports.py:700
+msgid ""
+" Se estima con un 90%  de probabilidad la existencia de al menos una "
+"anomalía maligna."
+msgstr ""
+" A existência de pelo menos uma anomalia maligna é estimada com 90% de "
+"probabilidade."
+
+#: pipeline/entelai-pdf/pdfreport/examples_4_reports.py:704
+msgid " (hallazgo en mama derecha)"
+msgstr " (achado no seio direito)"
+
+#: pipeline/entelai-pdf/pdfreport/examples_4_reports.py:712
+#: pipeline/entelai-pdf/pdfreport/examples_4_reports.py:757
+#: pipeline/entelai-pdf/pdfreport/examples_4_reports.py:784
+msgid "Reporte de inteligencia artificial"
+msgstr "Relatorio de inteligência artificial"
+
+#: pipeline/entelai-pdf/pdfreport/examples_4_reports.py:716
+#: pipeline/entelai-pdf/pdfreport/examples_4_reports.py:761
+msgid ""
+"Se analizaron las mamografías en las proyecciones craneocaudal y "
+"mediolateral oblicua de las mamas izquierda y derecha utilizando un "
+"algoritmo de inteligencia artificial. Se observaron al menos una "
+"anormalidad en el estudio para revisión por el especialista."
+msgstr ""
+"A mamografia foi analisada nas projeções cranio-caudal e médio-lateral "
+"oblíqua de as mama esquerda e direita usando um algoritmo de "
+"inteligência artificial. Pelo menos uma alteração foi observada no "
+"estudo para revisão medica."
+
+#: pipeline/entelai-pdf/pdfreport/examples_4_reports.py:724
+msgid "Hallazgos encontrados"
+msgstr "Resultados encontrados"
+
+#: pipeline/entelai-pdf/pdfreport/examples_4_reports.py:727
+msgid "Mama Derecha"
+msgstr "Mama Direita"
+
+#: pipeline/entelai-pdf/pdfreport/examples_4_reports.py:734
+msgid "Mama Izquierda"
+msgstr "Mama Esquerda"
+
+#: pipeline/entelai-pdf/pdfreport/examples_4_reports.py:742
+msgid "Clasificación segun BIRADS"
+msgstr "Classificação de acordo com BIRADS"
+
+#: pipeline/entelai-pdf/pdfreport/examples_4_reports.py:745
+msgid "Los hallazgos en la mamografía corresponden a un BIRADS de 3"
+msgstr "ooooooooooooooooooo"
+
+#: pipeline/entelai-pdf/pdfreport/examples_4_reports.py:769
+#: pipeline/entelai-pdf/pdfreport/examples_4_reports.py:794
+msgid "Clasificación de estudio"
+msgstr "Classificação do estudo"
+
+#: pipeline/entelai-pdf/pdfreport/examples_4_reports.py:772
+msgid "Anormal"
+msgstr "Anormal"
+
+#: pipeline/entelai-pdf/pdfreport/examples_4_reports.py:787
+msgid ""
+"Se analizaron las mamografías en las proyecciones craneocaudal y "
+"mediolateral oblicua de las mamas izquierda y derecha utilizando un "
+"algoritmo de inteligencia artificial. No se encontraron anomalías en "
+"ninguna de las mamas analizadas."
+msgstr ""
+"A mamografia foi analisada nas projeções cranio-caudal e médio-lateral "
+"oblíqua de as mama esquerda e direita usando um algoritmo de "
+"inteligência artificial. Não foram detectados achados anormais."
+
+#: pipeline/entelai-pdf/pdfreport/examples_4_reports.py:797
+msgid "Normal"
+msgstr "Normal"
+
+#: pipeline/entelai-pdf/pdfreport/examples_4_reports.py:858
+msgid "Cuantificación de lesiones"
+msgstr "Quantificação de lesões"
+
+#: pipeline/entelai-pdf/pdfreport/examples_4_reports.py:874
+#: pipeline/entelai-pdf/pdfreport/report_data/neuro_report_data.py:447
+msgid "Lesiones hiperintensas FLAIR"
+msgstr "Lesões hiperintensas no FLAIR"
+
+#: pipeline/entelai-pdf/pdfreport/examples_4_reports.py:896
+#: pipeline/entelai-pdf/pdfreport/report_data/neuro_report_data.py:49
+msgid "Área a revisar"
+msgstr "Área a analisar"
+
+#: pipeline/entelai-pdf/pdfreport/examples_4_reports.py:897
+#: pipeline/entelai-pdf/pdfreport/report_data/neuro_report_data.py:50
+msgid "Área posiblemente atrófica"
+msgstr "Área possivelmente atrófica"
+
+#: pipeline/entelai-pdf/pdfreport/examples_4_reports.py:909
+#: pipeline/entelai-pdf/pdfreport/report_data/neuro_report_data.py:478
+msgid "Análisis volumétrico de lesiones"
+msgstr "Análise volumétrica de lesões"
+
+#: pipeline/entelai-pdf/pdfreport/examples_4_reports.py:914
+msgid "Volumen de lesión"
+msgstr "Volume de lesão"
+
+#: pipeline/entelai-pdf/pdfreport/examples_4_reports.py:914
+msgid "Estudio actual"
+msgstr "Estudo atual"
+
+#: pipeline/entelai-pdf/pdfreport/examples_4_reports.py:914
+#: pipeline/entelai-pdf/pdfreport/report_data/neuro_report_data.py:483
+msgid "Estudio anterior"
+msgstr "Estudo anterior"
+
+#: pipeline/entelai-pdf/pdfreport/examples_4_reports.py:953
+msgid "Hiperintensas en flair (cm3)"
+msgstr "Lesões hiperintensas no FLAIR (cm3)"
+
+#: pipeline/entelai-pdf/pdfreport/examples_4_reports.py:954
+msgid "Hiperintensas en flair (%VIC)"
+msgstr "Lesões hiperintensas no FLAIR (%VIC)"
+
+#: pipeline/entelai-pdf/pdfreport/examples_4_reports.py:968
+#: pipeline/entelai-pdf/pdfreport/report_data/neuro_report_data.py:648
+msgid "DETECCIÓN DE LESIONES"
+msgstr "DETECÇÃO DE LESÕES"
+
+#: pipeline/entelai-pdf/pdfreport/helpers/translations.py:10
+msgid "Sust. blanca hem. izq."
+msgstr "Subst. branca hem. esq."
+
+#: pipeline/entelai-pdf/pdfreport/helpers/translations.py:12
+msgid "Ventrículos supratentoriales"
+msgstr "Ventrículos supratentoriais"
+
+#: pipeline/entelai-pdf/pdfreport/helpers/translations.py:13
+msgid "Sust. blanca cerebelo izq."
+msgstr "Subst branca cerebelar esq."
+
+#: pipeline/entelai-pdf/pdfreport/helpers/translations.py:14
+msgid "Sust. gris cerebelo izq."
+msgstr "Subst cinzenta cerebelar esq."
+
+#: pipeline/entelai-pdf/pdfreport/helpers/translations.py:15
+msgid "Tálamo izquierdo"
+msgstr "Tálamo esq."
+
+#: pipeline/entelai-pdf/pdfreport/helpers/translations.py:16
+msgid "Caudado izquierdo"
+msgstr "Caudado esq."
+
+#: pipeline/entelai-pdf/pdfreport/helpers/translations.py:17
+msgid "Putamen izquierdo"
+msgstr "Putâmen esq."
+
+#: pipeline/entelai-pdf/pdfreport/helpers/translations.py:18
+msgid "Pálido izquierdo"
+msgstr "Globo pálido esq."
+
+#: pipeline/entelai-pdf/pdfreport/helpers/translations.py:19
+msgid "Ventrículo (4to)"
+msgstr "Quarto ventrículo"
+
+#: pipeline/entelai-pdf/pdfreport/helpers/translations.py:20
+msgid "Tronco encefálico"
+msgstr "Tronco encefálico"
+
+#: pipeline/entelai-pdf/pdfreport/helpers/translations.py:21
+msgid "Hipocampo izquierdo"
+msgstr "Hipocampo esq."
+
+#: pipeline/entelai-pdf/pdfreport/helpers/translations.py:22
+msgid "Amígdala izquierda"
+msgstr "Amigdala esq."
+
+#: pipeline/entelai-pdf/pdfreport/helpers/translations.py:24
+msgid "Sust. blanca hem. der."
+msgstr "Subst. branca hem. dir."
+
+#: pipeline/entelai-pdf/pdfreport/helpers/translations.py:26
+msgid "Sust. blanca cerebelo der."
+msgstr "Subst. branca cerebelar dir."
+
+#: pipeline/entelai-pdf/pdfreport/helpers/translations.py:27
+msgid "Sust. gris cerebelo der."
+msgstr "Subst. cinzenta cerebelar dir."
+
+#: pipeline/entelai-pdf/pdfreport/helpers/translations.py:28
+msgid "Tálamo derecho"
+msgstr "Tálamo dir."
+
+#: pipeline/entelai-pdf/pdfreport/helpers/translations.py:29
+msgid "Caudado derecho"
+msgstr "Caudado dir."
+
+#: pipeline/entelai-pdf/pdfreport/helpers/translations.py:30
+msgid "Putamen derecho"
+msgstr "Putâmen dir."
+
+#: pipeline/entelai-pdf/pdfreport/helpers/translations.py:31
+msgid "Pálido derecho"
+msgstr "Globo pálido dir."
+
+#: pipeline/entelai-pdf/pdfreport/helpers/translations.py:32
+msgid "Hipocampo derecho"
+msgstr "Hipocampo dir."
+
+#: pipeline/entelai-pdf/pdfreport/helpers/translations.py:33
+msgid "Amígdala derecha"
+msgstr "Amigdala dir."
+
+#: pipeline/entelai-pdf/pdfreport/helpers/translations.py:35
+#: pipeline/entelai-pdf/pdfreport/helpers/translations.py:41
+#: pipeline/entelai-pdf/pdfreport/helpers/translations.py:42
+msgid "Corteza temporal izquierda"
+msgstr "Córtex temporal esq."
+
+#: pipeline/entelai-pdf/pdfreport/helpers/translations.py:36
+#: pipeline/entelai-pdf/pdfreport/helpers/translations.py:37
+#: pipeline/entelai-pdf/pdfreport/helpers/translations.py:44
+#: pipeline/entelai-pdf/pdfreport/helpers/translations.py:46
+msgid "Corteza frontal izquierda"
+msgstr "Córtex frontal esq."
+
+#: pipeline/entelai-pdf/pdfreport/helpers/translations.py:38
+#: pipeline/entelai-pdf/pdfreport/helpers/translations.py:39
+#: pipeline/entelai-pdf/pdfreport/helpers/translations.py:45
+#: pipeline/entelai-pdf/pdfreport/helpers/translations.py:47
+msgid "Corteza parietal izquierda"
+msgstr "Córtex parietal esq."
+
+#: pipeline/entelai-pdf/pdfreport/helpers/translations.py:40
+#: pipeline/entelai-pdf/pdfreport/helpers/translations.py:43
+msgid "Corteza occipital izquierda"
+msgstr "Córtex occipital esq."
+
+#: pipeline/entelai-pdf/pdfreport/helpers/translations.py:48
+msgid "Corteza insular izquierda"
+msgstr "Córtex insular esq."
+
+#: pipeline/entelai-pdf/pdfreport/helpers/translations.py:49
+#: pipeline/entelai-pdf/pdfreport/helpers/translations.py:55
+#: pipeline/entelai-pdf/pdfreport/helpers/translations.py:56
+msgid "Corteza temporal derecha"
+msgstr "Córtex temporal dir."
+
+#: pipeline/entelai-pdf/pdfreport/helpers/translations.py:50
+#: pipeline/entelai-pdf/pdfreport/helpers/translations.py:51
+#: pipeline/entelai-pdf/pdfreport/helpers/translations.py:58
+#: pipeline/entelai-pdf/pdfreport/helpers/translations.py:60
+msgid "Corteza frontal derecha"
+msgstr "Córtex frontal dir."
+
+#: pipeline/entelai-pdf/pdfreport/helpers/translations.py:52
+#: pipeline/entelai-pdf/pdfreport/helpers/translations.py:53
+#: pipeline/entelai-pdf/pdfreport/helpers/translations.py:59
+#: pipeline/entelai-pdf/pdfreport/helpers/translations.py:61
+msgid "Corteza parietal derecha"
+msgstr "Córtex parietal dir."
+
+#: pipeline/entelai-pdf/pdfreport/helpers/translations.py:54
+#: pipeline/entelai-pdf/pdfreport/helpers/translations.py:57
+msgid "Corteza occipital derecha"
+msgstr "Córtex occipital dir."
+
+#: pipeline/entelai-pdf/pdfreport/helpers/translations.py:62
+msgid "Corteza insular derecha"
+msgstr "Córtex insular dir."
+
+#: pipeline/entelai-pdf/pdfreport/helpers/translations.py:64
+msgid "Sust. blanca"
+msgstr "Substância Branca"
+
+#: pipeline/entelai-pdf/pdfreport/helpers/translations.py:65
+msgid "Sust. gris"
+msgstr "Substância Cinzenta"
+
+#: pipeline/entelai-pdf/pdfreport/helpers/translations.py:66
+msgid "Liq. encefalorraquídeo"
+msgstr "Líq. Cefalorraquidiano"
+
+#: pipeline/entelai-pdf/pdfreport/helpers/translations.py:67
+msgid "Cerebelo"
+msgstr "Cerebelo"
+
+#: pipeline/entelai-pdf/pdfreport/helpers/translations.py:68
+msgid "Parénquima Cerebral"
+msgstr "Parênquima Cerebral"
+
+#: pipeline/entelai-pdf/pdfreport/helpers/translations.py:71
+msgid "Corteza frontal"
+msgstr "Córtex frontal"
+
+#: pipeline/entelai-pdf/pdfreport/helpers/translations.py:72
+msgid "Corteza insular"
+msgstr "Córtex insular"
+
+#: pipeline/entelai-pdf/pdfreport/helpers/translations.py:73
+msgid "Corteza occipital"
+msgstr "Córtex occipital"
+
+#: pipeline/entelai-pdf/pdfreport/helpers/translations.py:74
+msgid "Corteza parietal"
+msgstr "Córtex parietal"
+
+#: pipeline/entelai-pdf/pdfreport/helpers/translations.py:75
+msgid "Corteza temporal"
+msgstr "Córtex temporal"
+
+#: pipeline/entelai-pdf/pdfreport/report_data/base_report_data.py:75
+#: pipeline/entelai-pdf/pdfreport/report_data/mammo_report_data.py:32
+msgid ""
+"Producto médico autorizado por ANMAT e inscripto en el Registro Nacional "
+"de Productores y Productos de Tecnología Médica (bajo el número 2477-1) "
+"y ANVISA (número de registro 80102512470). Versión {}"
+msgstr ""
+"Produto médico autorizado pela ANMAT e registrado no Registro Nacional "
+"de Produtores e Produtos de Tecnologia Médica (sob o número 2477-1) e "
+"ANVISA (sob o número 80102512470). Entelai Pic versão {}"
+
+#: pipeline/entelai-pdf/pdfreport/report_data/base_report_data.py:79
+msgid ""
+"Este estudio se analizó utilizando un sistema de inteligencia "
+"artificial. Se observaron los siguientes hallazgos para revisión por el "
+"especialista:"
+msgstr ""
+"O seguinte estudo foi analisado usando um sistema de inteligência "
+"artificial. Os seguintes achados foram observados para revisão pelo "
+"especialista:"
+
+#: pipeline/entelai-pdf/pdfreport/report_data/base_report_data.py:89
+msgid "Error al procesar el estudio"
+msgstr "Erro no processamento do estudo"
+
+#: pipeline/entelai-pdf/pdfreport/report_data/base_report_data.py:90
+msgid ""
+"Se produjo un error en el procesamiento de este estudio. Por favor abra "
+"un ticket en https://soporte.entelai.com para mayor información."
+msgstr ""
+"Houve um erro no processamento deste estudo. Favor abrir um ticket em "
+"https://soporte.entelai.com para maiores informações."
+
+#: pipeline/entelai-pdf/pdfreport/report_data/mammo_report_data.py:41
+#: pipeline/entelai-pdf/pdfreport/report_data/mammo_report_data.py:46
+#: pipeline/entelai-pdf/pdfreport/report_data/mammo_report_data.py:48
+msgid "Izquierda - CC"
+msgstr "Esquerda - CC"
+
+#: pipeline/entelai-pdf/pdfreport/report_data/mammo_report_data.py:61
+#: pipeline/entelai-pdf/pdfreport/report_data/mammo_report_data.py:66
+#: pipeline/entelai-pdf/pdfreport/report_data/mammo_report_data.py:68
+msgid "Izquierda - MLO"
+msgstr "Esquerda - MLO"
+
+#: pipeline/entelai-pdf/pdfreport/report_data/mammo_report_data.py:81
+#: pipeline/entelai-pdf/pdfreport/report_data/mammo_report_data.py:86
+#: pipeline/entelai-pdf/pdfreport/report_data/mammo_report_data.py:88
+msgid "Derecha - CC"
+msgstr "Direita - CC"
+
+#: pipeline/entelai-pdf/pdfreport/report_data/mammo_report_data.py:101
+#: pipeline/entelai-pdf/pdfreport/report_data/mammo_report_data.py:106
+#: pipeline/entelai-pdf/pdfreport/report_data/mammo_report_data.py:108
+msgid "Derecha - MLO"
+msgstr "Direita - MLO"
+
+#: pipeline/entelai-pdf/pdfreport/report_data/mammo_report_data.py:164
+msgid "Clasificación del estudio"
+msgstr "Classificação do estudo"
+
+#: pipeline/entelai-pdf/pdfreport/report_data/mammo_report_data.py:166
+msgid "Score de IA"
+msgstr "Score de IA"
+
+#: pipeline/entelai-pdf/pdfreport/report_data/mammo_report_data.py:168
+msgid ""
+"Este Score refleja el cálculo de la IA respecto a la presencia real de "
+"hallazgos benignos/malignos. A mayor valor, mayor probabilidad de "
+"presencia de un hallazgo real."
+msgstr ""
+"Esta pontuação reflete o cálculo da IA ​​em relação à presença real de "
+"achados benignos/malignos. Quanto maior o valor, maior a probabilidade "
+"da presença de um achado real."
+
+#: pipeline/entelai-pdf/pdfreport/report_data/mammo_report_data.py:218
+msgid ""
+"Este reporte es de uso exclusivo para profesionales médicos, no "
+"constituye en sí un diagnóstico médico ni una opinión profesional, ni "
+"necesariamente va a estar de acuerdo con el diagnóstico, opinión o "
+"conducta que tome su profesional tratante. Siga siempre todas las "
+"recomendaciones del profesional."
+msgstr ""
+"Este relatorio é somente para uso de profissionais médicos, não "
+"constitui um diagnóstico médico ou opinião profissional, nem "
+"necessariamente concordará com o diagnóstico, opinião ou curso de ação "
+"tomado por seu médico. Siga sempre todos os conselhos médicos."
+
+#: pipeline/entelai-pdf/pdfreport/report_data/mammo_report_data.py:233
+msgid "Referencias"
+msgstr "Referencias"
+
+#: pipeline/entelai-pdf/pdfreport/report_data/mammo_report_data.py:262
+msgid " Etiqueta Verde: sin hallazgos de relevancia."
+msgstr " Rótulo Verde: nenhum resultado relevante."
+
+#: pipeline/entelai-pdf/pdfreport/report_data/mammo_report_data.py:265
+msgid " Etiqueta Amarilla: probable hallazgo benigno."
+msgstr " Rótulo Amarelo: provavelmente um achado benigno."
+
+#: pipeline/entelai-pdf/pdfreport/report_data/mammo_report_data.py:268
+msgid ""
+" Etiqueta Rosa: Los hallazgos de esta mamografía deben ser "
+"revisados                          por el especialista según su "
+"criterio. En el entrenamiento del sistema,                          "
+"estos casos requirieron estudio histológico dentro de los 120 días."
+msgstr ""
+" Rótulo Rosa: Os resultados desta mamografia devem ser analisados pelo "
+"especialista a seu critério. No treinamento do sistema, estes casos "
+"exigiram um estudo histológico dentro de 120 dias."
+
+#: pipeline/entelai-pdf/pdfreport/report_data/neuro_report_data.py:20
+msgid "Volumen en cm3"
+msgstr "Volume em cm3"
+
+#: pipeline/entelai-pdf/pdfreport/report_data/neuro_report_data.py:20
+msgid "Volumen en %VIC"
+msgstr "Volume em %VIC"
+
+#: pipeline/entelai-pdf/pdfreport/report_data/neuro_report_data.py:21
+msgid "Rango normal ajustado por edad según %VIC"
+msgstr "Faixa normal ajustada para a idade de acordo com %VIC"
+
+#: pipeline/entelai-pdf/pdfreport/report_data/neuro_report_data.py:22
+msgid "Cambio de percentilo"
+msgstr "Variação de percentil"
+
+#: pipeline/entelai-pdf/pdfreport/report_data/neuro_report_data.py:23
+msgid "Tasa de cambio anualizada"
+msgstr "Taxa de variação anualizada"
+
+#: pipeline/entelai-pdf/pdfreport/report_data/neuro_report_data.py:66
+msgid "Aclaraciones para el médico"
+msgstr "Esclarecimentos para o Médico"
+
+#: pipeline/entelai-pdf/pdfreport/report_data/neuro_report_data.py:70
+msgid "Abreviaturas: VIC (Volumen Intracraneal)"
+msgstr "Abreviaturas: VIC (Volume Intracraniano)"
+
+#: pipeline/entelai-pdf/pdfreport/report_data/neuro_report_data.py:74
+msgid ""
+"Los rangos normales corresponden a los valores contenidos entre el "
+"percentil 1% y el 99%. Se destacan con <strong>negrita</strong> las "
+"áreas que se encuentren por debajo del límite inferior (superior en el "
+"caso del sistema ventricular)."
+msgstr ""
+"As faixas normais correspondem a valores contidos entre o percentil 1% e "
+"99%. As áreas abaixo do limite inferior (superior no caso do sistema "
+"ventricular) são destacadas em <strong>negrito</strong>."
+
+#: pipeline/entelai-pdf/pdfreport/report_data/neuro_report_data.py:87
+msgid ""
+"La disminución anual del volumen de esta área es mayor a la esperada "
+"para el rango etario (excepto las estructuras subcorticales)"
+msgstr ""
+"A diminuição anual do volume desta área é maior do que o esperado para a "
+"faixa etária (exceto estruturas subcorticais)"
+
+#: pipeline/entelai-pdf/pdfreport/report_data/neuro_report_data.py:102
+msgid ""
+"El aumento anual del volumen de esta área es mayor a la esperada para el "
+"rango etario (excepto las estructuras subcorticales)"
+msgstr ""
+"O aumento anual do volume desta área é maior do que o esperado para a "
+"faixa etária (exceto estruturas subcorticais)"
+
+#: pipeline/entelai-pdf/pdfreport/report_data/neuro_report_data.py:120
+msgid "VOLÚMENES GLOBALES"
+msgstr "VOLUMES GLOBAIS"
+
+#: pipeline/entelai-pdf/pdfreport/report_data/neuro_report_data.py:121
+msgid "ESTR. SUBCORTICALES"
+msgstr "ESTR. SUBCORTICAIS"
+
+#: pipeline/entelai-pdf/pdfreport/report_data/neuro_report_data.py:123
+msgid "ESTR. INFRATENTORIALES"
+msgstr "ESTR. INFRATENTORIAIS"
+
+#: pipeline/entelai-pdf/pdfreport/report_data/neuro_report_data.py:124
+msgid "ÁREAS CORTICALES"
+msgstr "ÁREAS CORTICAIS"
+
+#: pipeline/entelai-pdf/pdfreport/report_data/neuro_report_data.py:225
+msgid ""
+"Este estudio se analizó utilizando un sistema de inteligencia "
+"artificial. Se\n"
+"                                       presentan los resultados de la "
+"cuantificación volumétrica para la\n"
+"                                       revisión por el especialista."
+msgstr ""
+"O seguinte estudo foi analisado usando um sistema de inteligência "
+"artificial. Os resultados da quantificação volumétrica são apresentados "
+"para revisão do especialista."
+
+#: pipeline/entelai-pdf/pdfreport/report_data/neuro_report_data.py:288
+msgid "Volumen hipocampo izquierdo"
+msgstr "Volume do hipocampo esquerdo"
+
+#: pipeline/entelai-pdf/pdfreport/report_data/neuro_report_data.py:290
+msgid "Volumen hipocampo derecho"
+msgstr "Volume do hipocampo direito"
+
+#: pipeline/entelai-pdf/pdfreport/report_data/neuro_report_data.py:298
+msgid "Volumen ventrículos"
+msgstr "Volume ventricular"
+
+#: pipeline/entelai-pdf/pdfreport/report_data/neuro_report_data.py:310
+#: pipeline/entelai-pdf/pdfreport/report_data/neuro_report_data.py:424
+msgid "Segmentación de tejidos y áreas"
+msgstr "Segmentação de tecidos"
+
+#: pipeline/entelai-pdf/pdfreport/report_data/neuro_report_data.py:371
+#: pipeline/entelai-pdf/pdfreport/report_data/neuro_report_data.py:654
+msgid "VOLUMETRÍA"
+msgstr "VOLUMETRIA"
+
+#: pipeline/entelai-pdf/pdfreport/report_data/neuro_report_data.py:462
+msgid "Lesiones estables/decrecientes"
+msgstr "Lesões estáveis/decrescentes"
+
+#: pipeline/entelai-pdf/pdfreport/report_data/neuro_report_data.py:463
+msgid "Lesiones nuevas/crecientes"
+msgstr "Lesões novas/crescentes"
+
+#: pipeline/entelai-pdf/pdfreport/report_data/neuro_report_data.py:483
+msgid "Cuantificación de lesiones hiperintensas en FLAIR"
+msgstr "Quantificação de lesões"
+
+#: pipeline/entelai-pdf/pdfreport/report_data/neuro_report_data.py:483
+msgid "<strong>Estudio actual</strong>"
+msgstr "<strong>Estudo atual</strong>"
+
+#: pipeline/entelai-pdf/pdfreport/report_data/neuro_report_data.py:627
+msgid "Hiperintensas en FLAIR (cm3)"
+msgstr "Hiperintensas em FLAIR (cm3)"
+
+#: pipeline/entelai-pdf/pdfreport/report_data/neuro_report_data.py:628
+msgid "Hiperintensas en FLAIR (%VIC)"
+msgstr "Hiperintensas em FLAIR (%VIC)"
+
+#: pipeline/entelai-pdf/pdfreport/report_data/neuro_report_data.py:631
+msgid "Número de lesiones totales (&#8805; 3mm de diámetro)"
+msgstr "Número total de lesões (&#8805; 3mm de diâmetro)"
+
+#: pipeline/entelai-pdf/pdfreport/report_data/neuro_report_data.py:632
+msgid "&nbsp;&nbsp;<em>Lesiones estables/decrecientes</em>"
+msgstr "&nbsp;&nbsp;<em>Lesões estáveis/decrescentes</em>"
+
+#: pipeline/entelai-pdf/pdfreport/report_data/neuro_report_data.py:633
+msgid "&nbsp;&nbsp;<em>Lesiones nuevas/crecientes</em>"
+msgstr "&nbsp;&nbsp;<em>Lesões novas/crescentes</em>"
+
+#: pipeline/entelai-pdf/pdfreport/report_data/thorax_report_data.py:85
+msgid "Radiografía de Tórax"
+msgstr "Raio-x do Tórax"
+
+#: pipeline/entelai-pdf/pdfreport/report_data/thorax_report_data.py:139
+msgid ""
+"El porcentaje presente en cada hallazgo refleja el grado de certeza que "
+"posee el algoritmo para su predicción. Cuanto más alto el porcentaje, "
+"mayor es el grado de certeza ante un determinado hallazgo. Por el "
+"contrario, porcentajes más bajos, reflejan un menor grado de certeza. "
+"Esto puede deberse a factores del entrenamiento del algoritmo o propios "
+"de la imagen (hallazgo pequeño, atípico o imagen de baja calidad). Los "
+"mapas de calor son una representación visual de los sectores de la "
+"radiografía que fueron más relevantes para el algoritmo de inteligencia "
+"artificial en su predicción. Sin embargo, estas áreas pueden no "
+"necesariamente coincidir con los sectores radiológicamente relevantes "
+"para el diagnóstico del hallazgo."
+msgstr ""
+"A porcentagem presente em cada constatação reflete o grau de certeza que "
+"o algoritmo tem para sua predição. Quanto maior a porcentagem, maior o "
+"grau de certeza para um determinado achado. Por outro lado, porcentagens "
+"mais baixas refletem um menor grau de certeza. Isto pode ser devido a "
+"fatores de treinamento do algoritmo ou da própria imagem (achado "
+"pequeno, imagem atípica ou de baixa qualidade). Os mapas de calor são "
+"uma representação visual das áreas da radiografia que foram mais "
+"relevantes para o algoritmo de inteligência artificial em sua previsão. "
+"Entretanto, essas áreas podem não coincidir necessariamente com os "
+"setores radiologicamente relevantes para o diagnóstico do achado."
+
+#: pipeline/entelai-pdf/pdfreport/report_data/thorax_report_data.py:235
+msgid "Imagen analizada"
+msgstr "Imagem analisada"
+
+#~ msgid ""
+#~ "Producto médico autorizado por ANMAT e inscripto en el Registro "
+#~ "Nacional de Productores y Productos de Tecnología Médica (bajo el "
+#~ "número 2477-1) y ANVISA (número de registo 80102512470). Versión {}"
+#~ msgstr ""
+#~ "Produto médico autorizado pela ANMAT e registrado no Registro "
+#~ "Nacional de Produtores e Produtos de Tecnologia Médica (sob o número "
+#~ "2477-1) e ANVISA (sob o número 80102512470). Entelai Pic versão {}"
+
+#~ msgid ""
+#~ "La clasificación en “Hallazgos normales y/o benignos” está basada en "
+#~ "entrenamiento con etiquetas de BIRADS 1 y 2. La clasificación en "
+#~ "“Hallazgos para revisión por especialista” está basado en casos con "
+#~ "BIRADS >3. El sistema no fue entrenado con BIRADS 0 ni con imágenes "
+#~ "con implantes mamarios. La clasificación sólo se realiza en base a "
+#~ "hallazgos de nódulos y calcificaciones y no detecta asimetrías "
+#~ "mamarias ni procesos inflamatorios que pueden considerarse "
+#~ "patológicas. \n"
+#~ "Producto médico autorizado por ANMAT e inscripto en el Registro "
+#~ "Nacional de Productores y Productos de Tecnología Médica (bajo el "
+#~ "número 2477-1) y ANVISA (número de registo 80102512470). Versión {}"
+#~ msgstr ""
+#~ "A classificação em “Achados normais e/ou benignos” é baseada em "
+#~ "treinamento com rótulos BIRADS 1 e 2. A classificação em “Achados "
+#~ "para revisão por especialista” é baseada em casos com BIRADS >3. O "
+#~ "sistema não foi treinado com BIRADS 0 ou com imagens de implantes "
+#~ "mamários. A classificação é baseada apenas em achados de nódulos e "
+#~ "calcificação e não detecta assimetrias mamárias ou processos "
+#~ "inflamatórios que possam ser considerados patológicos.\n"
+#~ "Produto médico autorizado pela ANMAT e registrado no Registro "
+#~ "Nacional de Produtores e Produtos de Tecnologia Médica (sob o número "
+#~ "2477-1) e ANVISA (sob o número 80102512470). Entelai Pic versão {}"
+
+#~ msgid ""
+#~ "La clasificación en “Hallazgos normales y/o benignos” está basada en "
+#~ "entrenamiento con etiquetas de BIRADS 1 y 2. La clasificación en "
+#~ "“Hallazgos para revisión por especialista” está basado en casos con "
+#~ "BIRADS >3. El sistema no fue entrenado con BIRADS 0 ni con imágenes "
+#~ "con implantes mamarios. La clasificación sólo se realiza en base a "
+#~ "hallazgos de nódulos y calcificaciones y no detecta asimetrías "
+#~ "mamarias ni procesos inflamatorios que pueden considerarse "
+#~ "patológicas. \n"
+#~ "Producto médico autorizado por ANMAT e inscripto en el Registro "
+#~ "Nacional de Productores y Productos de Tecnología Médica (bajo el "
+#~ "número 2477-1) y ANVISA (número de registro 80102512470). Versión {}"
+#~ msgstr ""
+#~ "A classificação em “Achados normais e/ou benignos” é baseada em "
+#~ "treinamento com rótulos BIRADS 1 e 2. A classificação em “Achados "
+#~ "para revisão por especialista” é baseada em casos com BIRADS >3. O "
+#~ "sistema não foi treinado com BIRADS 0 ou com imagens de implantes "
+#~ "mamários. A classificação é baseada apenas em achados de nódulos e "
+#~ "calcificação e não detecta assimetrias mamárias ou processos "
+#~ "inflamatórios que possam ser considerados patológicos. Produto médico "
+#~ "autorizado pela ANMAT e registrado no Registro Nacional de Produtores "
+#~ "e Produtos de Tecnologia Médica (sob o número 2477-1) e ANVISA (sob o "
+#~ "número 80102512470). Entelai Pic versão {}"
+
+#~ msgid ""
+#~ "El porcentaje presente en cada hallazgo refleja el grado de certeza "
+#~ "que poseeel algoritmo para su predicción. Cuanto más alto el "
+#~ "porcentaje,mayor es el grado de certeza ante un determinado hallazgo. "
+#~ "Por el contrario, porcentajes más bajos, reflejan un menor grado de "
+#~ "certeza.Esto puede deberse a factores del entrenamiento del algoritmo "
+#~ "o propios de la imagen (hallazgo pequeño, atípico o imagen de baja "
+#~ "calidad).Los mapas de calor son una representación visual de los "
+#~ "sectores de la radiografíaque fueron más relevantes para el algoritmo "
+#~ "de inteligencia artificial en su predicción.Sin embargo, estas áreas "
+#~ "pueden no necesariamente coincidir conlos sectores radiológicamente "
+#~ "relevantes para el diagnóstico del hallazgo."
+#~ msgstr ""
+#~ "A porcentagem presente em cada constatação reflete o grau de certeza "
+#~ "que o algoritmo tem para sua predição.Quanto maior a porcentagem, "
+#~ "maior o grau de certeza para um determinado achado. Por outro lado, "
+#~ "porcentagens mais baixas refletem um menor grau de certeza. Isto pode "
+#~ "ser devido a fatores de treinamento do algoritmo ou da própria imagem "
+#~ "( achado pequeno, imagem atípica ou de baixa qualidade).Os mapas de "
+#~ "calor são uma representação visual das áreas da radiografia que foram "
+#~ "mais relevantes para o algoritmo de inteligência artificial em sua "
+#~ "previsão. Entretanto, essas áreas podem não coincidir necessariamente "
+#~ "com os setores radiologicamente relevantes para o diagnóstico do "
+#~ "achado."
+
+#~ msgid "Control de calidad: segmentación de tejidos y áreas"
+#~ msgstr "Controle de qualidade: Segmentação de tecidos e áreas"
+
+#~ msgid "Control de calidad: lesiones hiperintensas FLAIR"
+#~ msgstr "Controle de qualidade: Segmentação de lesões"
+
+#~ msgid "Lesiones estables"
+#~ msgstr "Lesões estáveis"
+
+#~ msgid "&nbsp;&nbsp;<em>Cantidad de lesiones estables</em>"
+#~ msgstr "&nbsp;&nbsp;<em>Número de lesões estáveis</em>"
+
+#~ msgid "Score Rosa"
+#~ msgstr "Score Rosa"
+
+#~ msgid "Score Amarillo"
+#~ msgstr "Score Amarelo"
+
+#~ msgid "Aclaración para el especialista"
+#~ msgstr "Esclarecimento para o especialista"
+
+#~ msgid ""
+#~ "Con la etiqueta verde el sistema identifica aquellas mamografías que "
+#~ "en su experiencia no requirieron biopsia dentro de los 120 días, pero "
+#~ "que igualmente pueden tener otros hallazgos a considerar por el "
+#~ "especialista.<br>La etiqueta rosa significa que los hallazgos de esta "
+#~ "mamografía deben ser revisados en mayor profundidad por el "
+#~ "especialista según su criterio. En el entrenamiento del sistema, "
+#~ "estos casos requirieron estudio histológico dentro de los 120 días."
+#~ msgstr ""
+#~ "Com o rótulo verde o sistema identifica as mamografias que na sua "
+#~ "experiência não exigiam uma biopsia no prazo de 120 dias, mas que "
+#~ "ainda podem ter outros achados a serem considerados pelo especialista."
+#~ "<br> O rótulo rosa significa que os achados desta mamografia devem "
+#~ "ser revistos em maior profundidade pelo especialista de acordo com os "
+#~ "seus critérios. Na treinamento do sistema, estes casos exigiram um "
+#~ "estudo histológico no prazo de 120 dias."
+
+#~ msgid ""
+#~ "Este reporte es generado por un sistema de inteligencia artificial de "
+#~ "soporte para uso exclusivo de los profesionales médicos, no "
+#~ "constituye en si un diagnóstico médico ni una opinión profesional, ni "
+#~ "necesariamente va a estar de acuerdo con el diagnóstico, opinión, o "
+#~ "conducta que tome su profesional tratante. Siga siempre todas las "
+#~ "recomendaciones del profesional de la salud."
+#~ msgstr ""
+#~ "Este relatório é gerado por um sistema de apoio à inteligência "
+#~ "artificial para uso exclusivo de profissionais médicos. Não constitui "
+#~ "em si mesmo um diagnóstico médico ou opinião profissional, nem "
+#~ "necessariamente concordará com o diagnóstico, opinião, ou conduta "
+#~ "tomada pelo seu profissional de tratamento. Siga sempre todas as "
+#~ "recomendações do seu profissional de saúde."

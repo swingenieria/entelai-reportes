@@ -1,0 +1,59 @@
+image: lambci/lambda:build-python3.8
+pipelines:
+  branches:
+    master:
+      - step:
+          name: Build and package
+          script:
+            - apt-get update && apt-get install -y zip python-pip
+            - pip install virtualenv
+            - virtualenv --python=python3 venv
+            - source ./venv/bin/activate
+            - pip install .
+            - cp -r ./extras/pango-libs/* ./venv/lib/python3.8/site-packages/
+            - cd venv/lib/python3.8/site-packages
+            - zip -r ../../../../code.zip .
+            - cd -
+            - cd pdfreport
+            - zip ../code.zip -r ./*
+          artifacts:
+            - code.zip
+      - step:
+          name: Update Lambda code
+          script:
+            - pipe: atlassian/aws-lambda-deploy:0.2.1
+              variables:
+                AWS_ACCESS_KEY_ID: ${AWS_PROD_ACCESS_KEY_ID}
+                AWS_SECRET_ACCESS_KEY: ${AWS_PROD_SECRET_ACCESS_KEY}
+                AWS_DEFAULT_REGION: 'us-east-1'
+                FUNCTION_NAME: 'pdf-report'
+                COMMAND: 'update'
+                ZIP_FILE: 'code.zip'
+    release:
+      - step:
+          name: Build and package
+          script:
+            - apt-get update && apt-get install -y zip python-pip
+            - pip install virtualenv
+            - virtualenv --python=python3 venv
+            - source ./venv/bin/activate
+            - pip install .
+            - cp -r ./extras/pango-libs/* ./venv/lib/python3.8/site-packages
+            - cd venv/lib/python3.8/site-packages
+            - zip -r ../../../../code.zip .
+            - cd -
+            - cd pdfreport
+            - zip ../code.zip -r ./*
+          artifacts:
+            - code.zip
+      - step:
+          name: Update Lambda code
+          script:
+            - pipe: atlassian/aws-lambda-deploy:0.2.1
+              variables:
+                AWS_ACCESS_KEY_ID: ${AWS_STG_ACCESS_KEY_ID}
+                AWS_SECRET_ACCESS_KEY: ${AWS_STG_SECRET_ACCESS_KEY}
+                AWS_DEFAULT_REGION: 'us-east-1'
+                FUNCTION_NAME: 'pdf-report'
+                COMMAND: 'update'
+                ZIP_FILE: 'code.zip'

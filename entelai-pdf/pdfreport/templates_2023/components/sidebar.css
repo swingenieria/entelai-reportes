@@ -1,0 +1,25 @@
+aside {
+    background-color: #f6faff;
+    font-size: 12px;
+    width: 200px;
+    height: 100%;
+    padding: 40px 20px 40px;
+}
+aside .logo-fleni {
+    width: 150px;
+    display: block;
+    margin: 0 auto;
+}
+aside .patient {
+    margin-bottom: 250px;
+}
+aside .patient p {
+    font-weight: 700;
+}
+aside .legal span {
+    color: #16b6ca;
+    margin-right: 10px;
+}
+aside .legal p {
+    font-size: 8px;
+}

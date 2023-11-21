@@ -1,0 +1,33 @@
+<!-- -------- HEADER COMPONENT ---------->
+<header>
+
+    <div class="logo-and-title">
+        <div class="logos">
+            {% with component=component.get('main_img') %}
+                {% include 'components/image.html' %}
+            {% endwith %}
+        </div>
+
+            <h1>
+                {{ component.get('title') }}
+            </h1>
+
+            {% if component.get('entelai_img', false) %}
+                <div class="entelai-powered-by">
+                    <span class="entelai-powered-by-text">
+                        <span class="entelai-powered-preffix">Powered by</span>
+                    </span>
+
+                    {% with component=component.get('entelai_img'), class="entelai-img" %}
+                        {% include 'components/image.html' %}
+                    {% endwith %}
+                </div>
+            {% endif %}
+
+    </div>
+
+    {% with component=component.get('table') %}
+        {% include 'components/table.html' %}
+    {% endwith %}
+</header>
+<!-- -------- END HEADER COMPONENT ---------->

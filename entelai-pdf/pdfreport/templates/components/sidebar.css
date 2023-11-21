@@ -1,0 +1,132 @@
+aside {
+    width: 310px;
+    background: #f7f7f7;
+    margin-left: 30px;
+    padding: 0 20px 20px 20px;
+    box-sizing: border-box;
+    font-size: initial;
+    display: inline-block;
+    height: 850px;
+}
+
+aside p:first-child {
+    margin-top: 20px;
+}
+
+aside h1 {
+    margin: 20px 0 5px 0;
+    font-weight: 600;
+    font-size: 0.8em;
+    text-transform: uppercase;
+    letter-spacing: -0.4px;
+    line-height: 1.5;
+}
+
+aside img {
+    max-width: 100%;
+}
+
+aside p {
+    font-weight: 300;
+    margin: 0 0 2em 0;
+    font-size: 0.9em;
+    line-height: 1.4em;
+}
+
+aside p.small-font {
+    font-size: 0.8em;
+}
+
+aside p.super-small-font {
+    font-size: 0.6em;
+}
+
+aside p.italics-font {
+    font-style: italic;
+}
+
+.torax aside ul {
+    font-weight: 600;
+    font-size: 12px;
+}
+
+.torax aside ul li {
+    list-style: none;
+    font-size: 0.9em;
+    margin: 0 0 0 -2em;
+}
+
+.torax aside ul li span {
+    color: #e85a40;
+}
+
+.mammo aside p {
+    font-size: 13px;
+    text-align: left;
+}
+
+aside.mammo-no-heatmap {
+    width: 520px;
+}
+
+.green_circle_references{
+    background-color: #00B7CC;
+    height:8px;
+    border-radius:100%;
+    width:8px;
+    display: inline-block;
+}
+.circle_with_border_references {
+    background-color: #EFA7A7;
+    border:0.8px  solid black;    
+    height:8px;
+    border-radius:100%;
+    -moz-border-radius:50%;
+    -webkit-border-radius:50%;
+    width:8px;
+    display: inline-block;
+}
+.circle_with_dashed_border_references {
+    background-color: #FFE156;
+    border:0.8px  dashed black;    
+    height:8px;
+    border-radius:100%;
+    -moz-border-radius:50%;
+    -webkit-border-radius:50%;
+    width: 8px;
+    display: inline-block;
+}
+
+.circle_with_border {
+    background-color: #EFA7A7;
+    border:1px  solid black;    
+    height:10px;
+    border-radius:100%;
+    -moz-border-radius:50%;
+    -webkit-border-radius:50%;
+    width:10px;
+    display: inline-block;
+}
+
+.circle_with_dashed_border {
+    background-color: #FFE156;
+    border:1px  dashed black;    
+    height:10px;
+    border-radius:100%;
+    -moz-border-radius:50%;
+    -webkit-border-radius:50%;
+    width:10px;
+    display: inline-block;
+}
+
+.references_text{
+    display: flex;
+    padding:0px 0px 0px 0px;
+    margin-left:0px;
+    -webkit-box-decoration-break: clone;
+    -o-box-decoration-break: clone;
+    box-decoration-break: clone;
+}
+
+
+

@@ -1,0 +1,13 @@
+.reference {
+    font-size: 0.7em;
+    display: block;
+    font-weight: 400;
+    text-align: center;
+    padding: 0 10px;
+}
+.reference-box-color {
+    display: inline-block;
+    width: 1em;
+    height: 1em;
+    vertical-align: middle;
+}

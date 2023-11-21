@@ -1,0 +1,19 @@
+/*
+--entelai-blue: #494e6b;
+--entelai-grey: #AA9CA3;
+--entelay-red: #985e6d;
+--entelai-black: #192231;
+--entelai-white: #f5f5f5;
+--background-grey: #eee;
+*/
+@import 'fonts/fonts.css';
+@import 'components/page.css';
+@import 'components/header.css';
+@import 'components/sidebar.css';
+@import 'components/footer.css';
+@import 'components/table.css';
+@import 'components/image.css';
+@import 'components/div.css';
+@import 'components/main.css';
+@import 'components/reference.css';
+@import 'components/vertical-gradient.css';

@@ -1,0 +1,18 @@
+{
+  "report_file": "report.pdf",
+  "report_type": "ThoraxPipeline",
+  "title": "Reporte de Rx de Tórax",
+  "profile_name": "staging",
+  "bucket_name": "entelai-pipeline-temp-staging",
+  "study_prefix": "thorax",
+  "age": 50,
+  "table_file": "thorax_results.csv",
+  "institution_logo": "https://entelai-assets.s3.amazonaws.com/logoLavalle.png",
+  "institution_logo_class": "",
+  "version_tag": "v2.3",
+  "PatientName": "Paciente de Prueba",
+  "PatientSex": "M",
+  "PatientID": "00-MiID-00",
+  "StudyDescription": "Un estudio",
+  "StudyDate": "20000101"
+}

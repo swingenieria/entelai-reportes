@@ -1,0 +1,14 @@
+.idea
+venv
+*.pdf
+tmp
+TODO
+*.log
+__pycache__
+.DS_Store
+venv-dev
+*egg-info*
+# Translations
+*.mo
+*.pot
+.coverage

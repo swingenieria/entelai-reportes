@@ -1,0 +1,83 @@
+main {
+    width: 600px;
+    height: 100%;
+    padding: 40px 20px 20px 20px;
+}
+main .content {
+    height: calc(100% - 15px);
+    padding-bottom: 15px;
+}
+main .content > h1:first-child {
+    margin-top: 0;
+}
+main .content > table:not(:last-child) {
+    margin-bottom: 16px;
+}
+main .label {
+    padding: 2px 8px;
+    border-radius: 8px;
+    display: inline-block;
+    min-width: 80px;
+    text-align: center;
+}
+main .label-icon {
+    width: 12px;
+    height: 12px;
+    padding: 2px;
+    border-radius: 50%;
+    display: inline-block;
+    text-align: center;
+    vertical-align: top;
+}
+main i {
+    font-size: 8px;
+    vertical-align: top;
+}
+main .label-yellow {
+    color: #f59d00;
+    background-color: #fff5c9;
+}
+main .label-green {
+    color: #2fbf71;
+    background-color: #c6edd7;
+}
+main .label-teal {
+    color: #2fa5bf;
+    background-color: #c6e6ed;
+}
+main .label-red {
+    color: #ea5657;
+    background-color: #f7c2c2;
+}
+
+main .description {
+    margin-top: 10px;
+}
+main .description * {
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0px;
+}
+main .description .swatch {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    margin-right: 5px;
+}
+main .description .swatch:not(:first-child) {
+    margin-left: 20px;
+}
+main .annotations {
+    padding: 0px 10px 0px 10px;
+}
+
+main footer {
+    height: 15px;
+    font-weight: 700;
+    color: #2d71b8;
+    text-align: right;
+}
+
+
+

@@ -1,0 +1,24 @@
+.vertical-gradient .gradient-reference,
+.vertical-gradient .gradient {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.vertical-gradient .gradient-reference {
+    width: 20px;
+    height: 95px;
+    position: relative;
+}
+
+.vertical-gradient .gradient {
+    width: 10px;
+    height: 100px;
+}
+
+.vertical-gradient .gradient-reference span {
+    position: absolute;
+    right: 0;
+    transform: translateY(-50%);
+    font-size: 8px;
+    text-align: right;
+}

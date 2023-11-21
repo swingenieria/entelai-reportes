@@ -1,0 +1,5 @@
+<ul {% if 'class' in component %} class="{{ component.get('class') }}" {% endif %}>
+    {% for item in component.get('items',[]) %}
+        <li>{{ item }}</li>
+    {% endfor %}
+</ul>

@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>{{ title }}</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='fonts/fonts.css') }}">
+  <link rel="stylesheet" href="{{ url_for('static', filename='index.css') }}">
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/fontawesome-all.min.css') }}" />
+  <script src="{{ url_for('static', filename='js/fontawesome-all.min.js') }}"></script>
+</head>
+<body class="{{ body_class }}">
+
+{% with components=report.get('components', []) %}
+{% include './component_renderer.html' %}
+{% endwith %}
+
+</body>
+</html>
+

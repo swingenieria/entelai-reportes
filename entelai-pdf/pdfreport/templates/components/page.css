@@ -1,0 +1,51 @@
+@page {
+    size: A4;
+    margin: 0;
+}
+
+:root {
+    font-family: "Lato", sans-serif;
+    font-weight: 300;
+    color: #3b495b;
+    font-size: 0;
+}
+
+.page {
+    box-sizing: border-box;
+    height: 100%;
+    page-break-after: always;
+    overflow: hidden;
+    position: relative;
+}
+
+/* From here, css is only for the debug server */
+
+html, body {
+    height: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+body.debug-server .page {
+    /* A4 size in pixels at the default 96 dpi */
+    width: 794px;
+    height: 1123px;
+    margin: 50px;
+    border: solid 1px black;
+}
+
+.torax p {
+    font-size: 8pt;
+}
+
+.torax .item_hallazgo {
+    font-size: 10pt;
+}
+
+.torax .titulo_reducido {
+    font-size: 7pt;
+}
+
+.torax .texto_reducido {
+    font-size: 7pt;
+}

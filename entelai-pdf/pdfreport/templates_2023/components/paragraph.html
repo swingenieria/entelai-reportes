@@ -1,0 +1,21 @@
+<!-- -------- P COMPONENT ---------->
+<p {% if 'class' in component %} class="{{ component.get('class') }}" {% endif %}>
+{% if component.get('items', False) %}
+  {% for item in component.get('items',[]) %}
+        {% if item is mapping and item.get('type', False) %}
+            {% with component=item %}
+                {% include ('components/' + item.get('type') + '.html') %}
+            {% endwith %}
+        {% else %}
+            {% if item is mapping %}
+                {{ item.get('value') }}
+            {% else %}
+                {{ item }}
+            {% endif %}
+        {% endif %}
+    {% endfor %}
+{% else %}
+{{ component.get('text', '') }}
+{% endif %}
+</p>
+<!-- -------- END P COMPONENT ---------->

@@ -1,0 +1,133 @@
+header {
+    width: 100%;
+    padding-bottom: 15px;
+    box-sizing: border-box;
+    margin: 0;
+}
+
+header .logo-and-title {
+    padding: 30px 20px 10px 210px;
+    background: #f7f7f7;
+    position: relative;
+}
+
+header .logos {
+    position: absolute;
+    top: 0;
+    left: 30px;
+    width: 160px;
+    height: 170px;
+    background-color: #0a53b2;
+}
+
+header .main-img {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    max-height: 80%;
+    max-width: 80%;
+    transform: translate(-50%, -50%);
+}
+
+header .entelai-powered-by {
+    color: #0a53b2;
+    position: absolute;
+    width: 110px;
+    right: 0;
+    margin: 0;
+    bottom: 10px;
+    text-align: center;
+}
+header .entelai-powered-by-text {
+    display: block;
+    vertical-align: middle;
+}
+header .entelai-powered-preffix {
+    font-size: 8px;
+    display: block;
+}
+header .entelai-powered-by-name {
+    font-size: 10px;
+    letter-spacing: 2px;
+}
+header .entelai-img {
+    vertical-align: middle;
+    width: 51px;
+    margin: 6px 0 10px;
+}
+
+header h1 {
+    font-size: 30px;
+    margin: 0;
+    color: #0a53b2;
+    font-weight: 300;
+}
+
+header table {
+    width: 600px;
+    /*width: 550px;*/
+    margin: 10px 0 10px 210px;
+    font-size: 12px;
+    table-layout: fixed;
+}
+
+header table tr:nth-child(2n+1) {
+    font-weight: 500;
+    color: #0a53b2;
+}
+
+
+header table tr:nth-child(even) td {
+    padding-bottom: 15px;
+}
+
+header table td {
+    vertical-align: top;
+    padding-right: 4px;
+}
+
+.mammo header .entelai-powered-by {
+    color: #DA75AC;
+}
+
+.mammo header .logos {
+    background-color: #DA75AC;
+}
+
+.logo-white-background header .logos {
+    background-color: white;
+    border-style: solid;
+    border-color: #f7f7f7;
+}
+
+.mammo.logo-white-background header .logos {
+    background-color: white;
+    border-style: solid;
+    border-color: #f7f7f7;
+}
+
+.mammo header h1, .mammo header table tr:nth-child(2n+1) {
+    color: #DA75AC;
+}
+
+.mammo header table, .torax header table {
+    width: 580px;
+}
+
+.torax header .entelai-powered-by {
+    color: #e85a40;
+}
+
+.torax header .logos {
+    background-color: #e85a40;
+}
+
+.torax.logo-white-background header .logos{
+    background-color: white;
+    border-style: solid;
+    border-color: #f7f7f7;
+}
+
+.torax header h1, .torax header table tr:nth-child(2n+1) {
+    color: #e85a40;
+}

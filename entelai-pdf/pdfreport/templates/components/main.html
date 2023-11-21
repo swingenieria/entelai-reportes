@@ -1,0 +1,13 @@
+<!-- -------- MAIN COMPONENT ---------->
+<main class="{{ component.get('class') if component.get('class', False) else '' }}">
+    {% if 'title' in component %}
+        <p class="main-title">
+            {{ component.get('title', '') }}
+        </p>
+    {% endif %}
+
+    {% with components=component.get('components', []) %}
+        {% include 'component_renderer.html' %}
+    {% endwith %}
+</main>
+<!-- -------- END MAIN COMPONENT ---------->

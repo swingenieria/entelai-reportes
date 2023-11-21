@@ -1,0 +1,88 @@
+@page {
+    size: A4;
+    margin: 0;
+}
+:root {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    color: #14395f;
+    font-size: 10px;
+}
+* {
+    box-sizing: border-box;
+}
+html,
+body {
+    height: 100%;
+    padding: 0;
+    margin: 0;
+}
+body.debug-server .page {
+    width: 794px;
+    height: 1123px;
+    margin: 50px;
+    border: solid 1px black;
+}
+h1,
+h2,
+h3 {
+    color: #2d71b8;
+}
+h1 {
+    font-size: 14px;
+    margin-block-end: 0.4em;
+}
+h2 {
+    font-size: 12px;
+    margin-block-end: 0.4em;
+}
+h3 {
+    font-size: 10px;
+    margin-block-end: 0.4em;
+}
+.subtitle {
+    font-size: 12px;
+}
+.page {
+    display: flex;
+    height: 100%;
+    page-break-after: always;
+    overflow: hidden;
+    position: relative;
+}
+.w-100 {
+    width: 100%;
+}
+.border-box {
+    border: 2px solid #f6faff;
+    border-radius: 8px;
+}
+.teal-bg {
+    background-color: #2fa5bf;
+}
+.red-bg {
+    background-color: #ea5657;
+}
+
+.torax p {
+    font-size: 8pt;
+}
+
+.torax .item_hallazgo {
+    font-size: 10pt;
+}
+
+.torax .titulo_reducido {
+    font-size: 7pt;
+}
+
+.torax .texto_reducido {
+    font-size: 7pt;
+}
+
+aside,
+main .content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}

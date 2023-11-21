@@ -1,0 +1,4 @@
+<!-- -------- IMAGE COMPONENT ---------->
+{% set relative_path = load_img(component.get('absolute_path')) %}
+<img src="{{ url_for('static', filename=relative_path) }}" class="{{ component.get('class', '') if component is mapping and component.get('class', False) else ''}}" style="{{ component.get('style') if component is mapping and component.get('style', False) else '' }}">
+<!-- -------- END IMAGECOMPONENT ---------->

@@ -1,0 +1,13 @@
+<!-- -------- VERTICAL GRADIENT COMPONENT ---------->
+<span class="vertical-gradient">
+
+    <span class="gradient-reference">
+        {% for value in component.get('values', []) %}
+            <span style="top: {{ 100 * loop.index0 / (loop.length - 1) }}%">{{ value }}</span>
+        {% endfor %}
+    </span>
+
+    <span style="background: linear-gradient({{ ','.join(component.get('stops')) }});"
+          class="gradient"></span>
+</span>
+<!-- -------- END GRADIENT COMPONENT ---------->

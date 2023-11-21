@@ -1,0 +1,19 @@
+{
+  "report_file": "report.pdf",
+  "report_type": "VolumetriasPipeline",
+  "title": "Volumetria",
+  "profile_name": "staging",
+  "bucket_name": "entelai-pipeline-temp-staging",
+  "study_prefix": "neuro",
+  "age": 50,
+  "findings_file": "text_findings.pkl",
+  "volumes_file": "volumes.csv",
+  "institution_logo": "https://entelai-assets.s3.amazonaws.com/logoLavalle.png",
+  "institution_logo_class": "",
+  "version_tag": "v2.3",
+  "PatientName": "Paciente de Prueba",
+  "PatientSex": "M",
+  "PatientID": "00-MiID-00",
+  "StudyDescription": "Un estudio",
+  "StudyDate": "20000101"
+}

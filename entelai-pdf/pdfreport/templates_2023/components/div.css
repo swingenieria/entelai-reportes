@@ -1,0 +1,42 @@
+.izquierda {
+    display: inline-block;
+    margin-top: auto;
+    margin-bottom:auto;
+    padding-left: 10px;
+}
+
+.izquierda2 {
+    margin-top: auto;
+    margin-bottom:auto;
+}
+
+.bg-color2 {
+    background-color: #f7f7f7;
+    border-bottom: none !important;
+    font-size: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.bg-color2 strong{
+    font-weight: 600 !important;
+}
+
+.flotante {
+    float: left;
+    width: 10px;
+    height: 10px;
+    padding-right: 2px;
+}
+
+.fijo {
+    position: absolute !important;
+    bottom: 20px !important;
+}
+
+.relativo {
+    position: relative;
+    height: 850px !important;
+}

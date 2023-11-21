@@ -1,0 +1,7 @@
+{% for component in components %}
+    {% if 'type' in component %}
+        {% with component=component %}
+            {% include 'components/' + component.get('type') + '.html' %}
+        {% endwith %}
+    {% endif %}
+{% endfor %}

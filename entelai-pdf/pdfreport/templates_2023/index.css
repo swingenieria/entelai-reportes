@@ -1,0 +1,266 @@
+@page {
+    size: A4;
+    margin: 0;
+}
+:root {
+    font-family: 'Roboto', sans-serif !important;
+    font-weight: 400;
+    color: #14395f;
+    font-size: 10px;
+}
+* {
+    box-sizing: border-box;
+}
+html,
+body {
+    height: 100%;
+    padding: 0;
+    margin: 0;
+}
+body.debug-server .page {
+    width: 794px;
+    height: 1123px;
+    margin: 50px;
+    border: solid 1px black;
+}
+h1,
+h2,
+h3 {
+    color: #2d71b8;
+}
+h1 {
+    font-size: 14px;
+    margin-bottom: 0.4em;
+}
+h2 {
+    font-size: 12px;
+    margin-bottom: 0.4em;
+}
+h3 {
+    font-size: 10px;
+    margin-bottom: 0.4em;
+}
+.subtitle {
+    font-size: 13px;
+}
+.page {
+    display: flex;
+    height: 100%;
+    page-break-after: always;
+    overflow: hidden;
+    position: relative;
+}
+.w-100 {
+    width: 100%;
+}
+.border-box {
+    border: 2px solid #f6faff;
+    border-radius: 8px;
+}
+.teal-bg {
+    background-color: #2fa5bf;
+}
+.red-bg {
+    background-color: #ea5657;
+}
+aside,
+main .content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+aside {
+    background-color: #f6faff;
+    font-size: 12px;
+    width: 160px;
+    height: 1040px;
+    padding: 40px 20px 40px;
+}
+
+aside .logo-container {
+    width: 110px;
+    height: 110px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    background-color: white;
+    border-radius: 50%;
+    padding: 15px;
+}
+
+aside .logo-container img {
+    max-width: 110px;
+    max-height: 110px;
+}
+aside .logo-fleni {
+    width: 150px;
+    margin: 0 auto;
+}
+aside .patient {
+  margin-bottom: 220px;
+}
+aside .patient p {
+    font-weight: 700;
+}
+aside .legal span {
+    color: #16b6ca;
+    margin-right: 10px;
+    font-size: 8px;
+}
+aside .legal p {
+    font-size: 6px;
+}
+aside .bloque-espaciado {
+    margin-bottom: 25px;
+}
+aside .logo-entelai {
+    width: 60px;
+}
+aside .con-mas-interlineado {
+     line-height: 1.5;
+}
+main {
+    width: 600px;
+    height: 1040px;
+    padding: 40px 20px 50px 20px;
+}
+main .content {
+    height: 1025px;
+    justify-content: space-between;
+}
+main .content > h1:first-child {
+    margin-top: 0;
+}
+main .content  h2 {
+  text-align: center;
+}
+main .content > table:not(:last-child) {
+    margin-bottom: 16px;
+}
+main .image-center {
+  display: block;
+  width: 90%;
+  margin: 0 auto;
+}
+main .label {
+    padding: 4px 0px;
+    border-radius: 12px;
+    display: inline-block;
+    min-width: 80px;
+    text-align: center;
+}
+main .label-icon {
+    width: 12px;
+    height: 12px;
+    padding: 2px;
+    border-radius: 50%;
+    display: inline-block;
+    text-align: center;
+    vertical-align: top;
+}
+main i {
+    font-size: 8px;
+    vertical-align: top;
+}
+main .label-yellow {
+    color: #f59d00;
+    background-color: #fff5c9;
+}
+main .label-green {
+    color: #2fbf71;
+    background-color: #c6edd7;
+}
+main .label-teal {
+    color: #2fa5bf;
+    background-color: #c6e6ed;
+}
+main .label-red {
+    color: #ea5657;
+    background-color: #f7c2c2;
+}
+main table {
+    width: 100%;
+    border-spacing: 0;
+}
+main table.featured-table {
+    color: #2d71b8;
+    font-size: 10px;
+    font-weight: 700;
+}
+main table.featured-table tr td:last-child {
+    text-align: right;
+}
+main table.striped-table tr td {
+    padding: 6px;
+}
+main table.striped-table tr td:first-child {
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+}
+main table.striped-table tr td:last-child {
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
+main table.striped-table tr:nth-child(odd) {
+    background-color: #f6faff;
+}
+main table.data-table {
+    text-align: center;
+}
+main table.data-table tr th:first-child,
+main table.data-table tr td:first-child {
+    text-align: left;
+}
+main table.data-table tr:nth-child(odd) {
+    background-color: transparent;
+}
+main table.data-table tr:nth-child(even) {
+    background-color: #f6faff;
+}
+main .description {
+    margin-top: 10px;
+}
+main .description * {
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0px;
+}
+main .description .swatch {
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    margin-right: 5px;
+}
+main .description .swatch:not(:first-child) {
+    margin-left: 20px;
+}
+main .annotations {
+    padding: 0px 10px 1px 10px;
+    max-width: 530px;
+}
+main .indicaciones-max {
+    max-width: 500px;
+}
+main .svg-green {
+    fill: #2fbf71;
+}
+main .svg-red {
+    fill: #ea5657;
+}
+main footer {
+    font-weight: 700;
+    color: #2d71b8;
+    text-align: right;
+}
+
+.tabla-aireada {
+  margin-top: 1px;
+}
+
+.img-icono {
+  width: 8px;
+  height: 8px;
+  margin-bottom: 2px;
+}

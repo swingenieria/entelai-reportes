@@ -1,0 +1,21 @@
+<!-- -------- FOOTER COMPONENT ---------->
+<footer>
+    <div class="footer-content">
+        {%- if component.get('disclaimer', False) %}
+            <p class="footer-disclaimer">
+                {{ component.get('disclaimer', '') }}
+            </p>
+        {% endif -%}
+
+        {%- if component.get('page_counter', False) %}
+            <span class="footer-page-counter">
+                {{ component.get('page_counter', '') }}
+            </span>
+        {% endif -%}
+
+      {%- if component.get('detail', False) %}
+            {{ component.get('detail', '') }}
+      {% endif -%}
+    </div>
+</footer>
+<!-- -------- END FOOTER COMPONENT ------->

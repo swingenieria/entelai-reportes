@@ -1,0 +1,81 @@
+<!-- -------- TABLE COMPONENT ---------->
+{% if component.get('title', False) %}
+    <p class="table-title">
+        {{ component.get('title', '') }}
+    </p>
+{% endif %}
+
+<table class="{{ component.get('class', '') }}">
+    {% if component.get('header', False) %}
+        <thead>
+        {% for cell in component.get('header', []) %}
+        {% if cell is mapping %}
+        <th style="{{ cell.get('style') if cell.get('style', False) else '' }}">
+            {{ cell.get('value') }}
+            {% else %}
+            <th>
+                {{ cell }}
+            {% endif %}
+            </th>
+        {% endfor %}
+        </thead>
+    {% endif %}
+
+    <tbody>
+    {% for row in component.get('rows', []) %}
+        {% if row is mapping %}
+          <tr style="{{ row.get('style') if row.get('style', False) else ''}}" class="{{ row.get('class') if row.get('class', False) else '' }}">
+          {% set row = row.get('values') %}
+        {% else %}
+          <tr>
+        {% endif %}
+
+            {% for cell in row %}
+                <td style="{{ 'width:' + cell.get('width') if cell is mapping and cell.get('width', False) else '' }} {{ cell.get('style') if cell is mapping and cell.get('style', False) else '' }}"
+                    colspan="{{ cell.get('colspan') if cell is mapping and cell.get('colspan', False) else '' }}">
+                    {% if cell is mapping and cell.get('type', False) %}
+                        {% with component=cell %}
+                            {% include ('components/' + cell.get('type') + '.html') %}
+                        {% endwith %}
+                    {% else %}
+                        {% if cell is mapping %}
+                            {% if cell.get('items',false) %}
+                                {% for item in cell.get('items',[]) %}
+                                    {% if item is mapping and item.get('type', False) %}
+                                        {% with component=item %}
+                                            {% include ('components/' + item.get('type') + '.html') %}
+                                        {% endwith %}
+                                    {% else %}
+                                        {% if item is mapping %}
+                                            {{ item.get('value') }}
+                                        {% else %}
+                                            {{ item }}
+                                        {% endif %}
+                                    {% endif %}
+                                {% endfor %}
+                            {% else %}
+                                {{ cell.get('value') }}
+                            {% endif %}
+                        {% else %}
+                            {{ cell }}
+                        {% endif %}
+                    {% endif %}
+                </td>
+            {% endfor %}
+        </tr>
+    {% endfor %}
+    </tbody>
+
+    {% if component.get('footer', False) %}
+        <tfoot>
+        {% for cell in component.get('footer', []) %}
+            <td>
+                {{ cell }}
+            </td>
+        {% endfor %}
+        </tfoot>
+    {% endif %}
+
+</table>
+
+<!-- -------- END TABLE COMPONENT ---------->
