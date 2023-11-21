@@ -596,6 +596,7 @@ class VolumetriaReportData(NeuroReportData):
                                         },
                                         {
                                             'type': 'subtitle',
+                                            'class': 'izquierda',
                                             'text': _('Título 1'),
                                         },
                                         self.generate_fake_table(6),
@@ -607,6 +608,7 @@ class VolumetriaReportData(NeuroReportData):
                                     'items': [
                                         {
                                             'type': 'subtitle',
+                                            'class': 'izquierda',
                                             'text': _('Título 2'),
                                         },
                                         self.generate_fake_table(10),
@@ -618,6 +620,7 @@ class VolumetriaReportData(NeuroReportData):
                                     'items': [
                                         {
                                             'type': 'subtitle',
+                                            'class': 'izquierda',
                                             'text': _('Título 3'),
                                         },
                                         self.generate_fake_table(2),
@@ -629,6 +632,7 @@ class VolumetriaReportData(NeuroReportData):
                                     'items': [
                                         {
                                             'type': 'subtitle',
+                                            'class': 'izquierda',
                                             'text': _('Título 4'),
                                         },
                                         self.generate_fake_table(5),
@@ -657,6 +661,7 @@ class VolumetriaReportData(NeuroReportData):
                                 {
                                     'type': 'subtitle',
                                     'text': _('Título 1'),
+                                    'class': 'izquierda',
                                 },
                                 self.generate_fake_table(28),
                             ],
@@ -688,7 +693,7 @@ class VolumetriaReportData(NeuroReportData):
                                                 {
                                                     'type': 'image',
                                                     'absolute_path': '../images/chevron-down-solid.png',
-                                                    'class': 'svg-green'
+                                                    'class': 'img-icono svg-green'
                                                 },
                                             ],
                                         },
@@ -705,7 +710,7 @@ class VolumetriaReportData(NeuroReportData):
                                                 {
                                                     'type': 'image',
                                                     'absolute_path': '../images/chevron-up-solid.png',
-                                                    'class': 'svg-red'
+                                                    'class': 'img-icono svg-red'
                                                 },
                                             ],
                                         },
@@ -1526,26 +1531,48 @@ class DesmielinizantesReportData(NeuroReportData):
                             'items': [
                                 {
                                     'type': 'title',
-                                    'text': 'Volumetria',
+                                    'text': _('Volumetria'),
                                 },
                                 {
                                     'type': 'subtitle',
-                                    'text': 'Título 1',
+                                    'class': 'izquierda',
+                                    'text': _('Título 1'),
                                 },
                                 self.generate_fake_table(6),
+                            ],
+                        },
+                        {
+                            'type': 'div',
+                            'class': 'tabla-aireada',
+                            'items': [
                                 {
                                     'type': 'subtitle',
-                                    'text': 'Título 2',
+                                    'class': 'izquierda',
+                                    'text': _('Título 2'),
                                 },
                                 self.generate_fake_table(10),
+                            ],
+                        },
+                        {
+                            'type': 'div',
+                            'class': 'tabla-aireada',
+                            'items': [
                                 {
                                     'type': 'subtitle',
-                                    'text': 'Título 3',
+                                    'class': 'izquierda',
+                                    'text': _('Título 3'),
                                 },
                                 self.generate_fake_table(2),
+                            ],
+                        },
+                        {
+                            'type': 'div',
+                            'class': 'tabla-aireada',
+                            'items': [
                                 {
                                     'type': 'subtitle',
-                                    'text': 'Título 4',
+                                    'class': 'izquierda',
+                                    'text': _('Título 4'),
                                 },
                                 self.generate_fake_table(5),
                             ],
